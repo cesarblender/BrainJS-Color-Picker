@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color picker</title>
+    <script src="https://unpkg.com/brain.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="picker">
+        <h2>Pick a color here and keep watching the text "Pick a color"</h2>
+        <input data-jscolor="{value:'rgb(255,255,255)'}", onInput="update(this.jscolor)" style="border-radius: 10px;outline: none;padding: 1rem;">
+    </div>
+
+    <div id="site">Pick a color <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta modi, qui natus optio odit architecto quaerat laboriosam excepturi velit id nam nulla labore, earum quibusdam aliquam illo nisi corrupti maiores dignissimos. A non possimus quia laboriosam delectus suscipit quos, saepe similique ullam dolorem voluptatum facere sunt aperiam odit nesciunt soluta. Itaque ut voluptatem enim expedita odit! Neque nemo iure architecto cum atque minus corrupti ducimus, in autem consectetur vitae exercitationem animi temporibus quis aliquam cumque blanditiis nostrum commodi dolorum labore nulla cupiditate quam quo numquam. Assumenda rem velit sapiente. Facilis obcaecati tempora expedita quis nobis maxime aspernatur ullam veniam eum!</div>
+
+    <script src="jscolor.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
