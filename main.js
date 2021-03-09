@@ -24,6 +24,8 @@ function update(color) {
   };
   const output = network.run(input);
 
+  div.style.transition = "all ease 1s";
+
   if (output.color > 0.5) {
     div.style.color = "white";
   } else {
